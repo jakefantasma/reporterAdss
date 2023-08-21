@@ -1,0 +1,10 @@
+.PanelFiltro {
+  display: flex;
+  flex-direction: column;
+}
+.PanelTitulo {
+}
+.PanelFiltros {
+  display: flex;
+  flex-direction: row;
+}

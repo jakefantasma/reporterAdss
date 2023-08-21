@@ -44,7 +44,6 @@ export default function WithLicence() {
             }, []);
             tmpList.push({ name: el.name, info: jsonData });
           } else if (el.name.includes("Roster")) {
-            console.log("cargando por roster");
             //filtramos la info del resoter pare eliminar las abreviaturas del final
             let rosterfiltrado = jsonData.reduce((col, el) => {
               el.codigo = el.codigo + "";

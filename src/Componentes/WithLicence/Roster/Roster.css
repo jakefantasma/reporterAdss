@@ -20,3 +20,9 @@
   display: flex;
   flex-direction: column;
 }
+
+.PanelFiltro {
+  display: flex;
+  flex-direction: row;
+  background-color: blueviolet;
+}
