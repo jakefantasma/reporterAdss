@@ -16,3 +16,7 @@
 .information p {
   margin: 0px;
 }
+.OuName {
+  display: flex;
+  flex-direction: column;
+}

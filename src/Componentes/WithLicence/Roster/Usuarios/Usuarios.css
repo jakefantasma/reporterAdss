@@ -1,0 +1,22 @@
+.Usuarios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  max-width: 800px;
+  padding: 10px;
+}
+.Usuarios p {
+  margin: 0px;
+}
+.ResaltarPar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ResaltarRojo {
+  background-color: red;
+}
+.lista {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}

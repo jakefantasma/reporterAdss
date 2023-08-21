@@ -1,0 +1,8 @@
+.Registro {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  font-size: 13px;
+  justify-content: space-around;
+
+}

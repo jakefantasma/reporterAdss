@@ -1,0 +1,19 @@
+.MatchRosterDomain {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: red;
+  max-width: 1500px;
+}
+.MathcTitle {
+  text-align: center;
+}
+
+.MatchList {
+  display: flex;
+  flex-direction: column;
+}
+.MachListsContainer {
+  display: flex;
+  flex-direction: row;
+}
