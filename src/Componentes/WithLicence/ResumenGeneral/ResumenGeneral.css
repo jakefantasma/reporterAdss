@@ -1,0 +1,17 @@
+h3 {
+  margin: 0px;
+}
+.porCuenta {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: solid black 1px;
+  max-width: 350px;
+  padding: 30px;
+}
+.ContenedorResumen {
+  display: flex;
+  flex-direction: row;
+  max-width: 2500px;
+  flex-wrap: wrap;
+}

@@ -3,6 +3,7 @@ import * as xlsx from "xlsx";
 import Ficheros from "./Ficheros/Ficheros";
 import Roster from "./Roster/Roster";
 import MatchRosterDomain from "./MatchRosterDomain/MatchRosterDomain";
+import ResumenGeneral from "./ResumenGeneral/ResumenGeneral";
 import "./WithLicence.css";
 export default function WithLicence() {
   const [fileList, setFileList] = useState([]);
@@ -61,14 +62,15 @@ export default function WithLicence() {
     setFileList(fileListArray); //ref list de archivos
     setlistado(tmpList); // ref mod list usercode added
     setroster(tmpRoster); // ref filter roster list
+    //todo ser remuev roster por tiempos de carga
   };
   return (
     <div className="WithLicence">
       <h3>WithLicence</h3>
       <input type="file" multiple onChange={handleFileChange} />
       <Ficheros fileList={fileList} listado={listado} />
+      <ResumenGeneral roster={roster} listado={listado} />
       <div className="juntos">
-        <Roster roster={roster} />
         <MatchRosterDomain roster={roster} listado={listado} />
       </div>
     </div>

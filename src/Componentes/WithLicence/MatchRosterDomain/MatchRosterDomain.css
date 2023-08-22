@@ -5,8 +5,9 @@
   background-color: rgba(0, 0, 0, 0.5);
   border: solid black 1px;
   border-radius: 10px;
-  max-width: 1500px;
+  max-width: 2500px;
 }
+
 .MathcTitle {
   text-align: center;
 }
@@ -15,7 +16,15 @@
   display: flex;
   flex-direction: column;
 }
+
 .MachListsContainer {
   display: flex;
   flex-direction: row;
+}
+
+.contenedorgrafica {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 700px;
 }

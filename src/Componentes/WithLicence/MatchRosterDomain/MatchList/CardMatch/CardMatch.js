@@ -13,11 +13,16 @@ export default function CardMatch({ registro, index }) {
   return (
     <div className={estilo}>
       <p>{registro.codigo}</p>
-      <div className="nombres">
+      <div className="name">
         <p>{registro.Nombre}</p>
       </div>
-      <p>{registro.Departamento}</p>
-      <p>{registro.Rol}</p>
+      <div>
+        <p>{registro.Departamento}</p>
+        <p>{registro.Rol}</p>
+        <p>{registro.Pais}</p>
+        
+
+      </div>
       <p>{nameOus.join("/")}</p>
     </div>
   );

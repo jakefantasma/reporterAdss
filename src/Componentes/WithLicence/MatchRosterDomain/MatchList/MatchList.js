@@ -3,9 +3,7 @@ import "./MatchList.css";
 export default function MatchList({ listado, title }) {
   return (
     <div className="MatchList">
-      <div>
-        <h2>{title + " " + listado.length} </h2>
-      </div>
+      <h2>{title}</h2>
 
       {Object.keys(listado).map((index) => {
         return (
