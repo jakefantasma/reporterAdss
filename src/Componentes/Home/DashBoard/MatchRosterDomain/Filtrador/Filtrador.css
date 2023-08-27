@@ -1,0 +1,29 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  min-width: 2000px;
+}
+.infomation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.registros {
+  display: flex;
+  flex-direction: column;
+}
+
+.graficaContenedor {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.contenedorgrafica {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 500px;
+}
+.listadoFiltrado{
+}

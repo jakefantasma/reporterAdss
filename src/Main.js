@@ -1,9 +1,10 @@
-import WithLicence from "./Componentes/WithLicence/WithLicence";
+
+import Home from "./Componentes/Home/Home";
 import "./Main.css";
 export default function Main() {
   return (
     <div className="Main">
-      <WithLicence />
+      <Home />
     </div>
   );
 }

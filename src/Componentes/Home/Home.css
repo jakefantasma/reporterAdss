@@ -1,0 +1,27 @@
+.HomeUpdate {
+  display: flex;
+  border: solid black 1px;
+  border-radius: 15px;
+  flex-direction: column;
+  min-width: 1000px;
+  align-items: center;
+  height: 100vh;
+}
+.Titulo h1 {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+.Titulo {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+}
+.fileSelectorContainer {
+  display: flex;
+  flex-direction: row;
+}
+.fileSelectorContainer input {
+  background-color: rgba(0, 255, 255, 0);
+}

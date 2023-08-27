@@ -1,0 +1,69 @@
+.MatchRosterDomain {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border: solid black 1px;
+  padding: 50px;
+  height: 100%;
+}
+.ResumenContainer {
+  display: flex;
+  flex-direction: column;
+}
+.resumen {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 500px;
+}
+.resumen p {
+  padding: 0px;
+  margin: 0px;
+}
+.tituloresumen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.departamento h2 {
+  margin: 0px;
+  padding: 0px;
+}
+.departamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedorInfo {
+  display: flex;
+  flex-direction: row;
+}
+.listado {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+}
+.tarjeta p {
+  padding: 0;
+  margin: 0;
+}
+.tarjeta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid black 1px;
+  padding: 5px;
+  font-size: 15px;
+}
+.listaContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.codigoDo {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}

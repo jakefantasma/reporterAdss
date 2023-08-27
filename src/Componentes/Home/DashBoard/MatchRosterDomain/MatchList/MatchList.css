@@ -1,0 +1,12 @@
+.MatchList{
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  overflow: auto;
+  max-height: 800px;
+}
+
+
+.MatchList h2 {
+  margin: 0px;
+}

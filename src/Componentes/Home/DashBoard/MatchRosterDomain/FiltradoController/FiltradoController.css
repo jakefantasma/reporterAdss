@@ -1,0 +1,37 @@
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  background-color: orange;
+  max-width: 200px;
+}
+
+
+.filter select {
+  background-color: red;
+  max-width: 200px;
+}
+
+.infomation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.registros {
+  display: flex;
+  flex-direction: column;
+}
+
+.graficaContenedor {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.contenedorgrafica {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 500px;
+}

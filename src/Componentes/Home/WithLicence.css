@@ -1,0 +1,19 @@
+.WithLicence {
+  display: flex;
+  border-radius: 10px;
+  border: solid black 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  flex-direction: column;
+  min-width: 300px;
+  color: white;
+}
+
+.Ficheros {
+  display: flex;
+  flex-direction: row;
+}
+.juntos {
+  display: flex;
+  flex-direction: column;
+}
